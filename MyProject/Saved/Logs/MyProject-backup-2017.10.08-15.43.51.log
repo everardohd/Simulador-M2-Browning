@@ -1,0 +1,428 @@
+﻿Log file open, 10/08/17 14:50:51
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-860218760) SRandInit(-860218760).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 1.059049
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.08-19.50.52:111][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.08-19.50.52:111][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.08-19.50.52:247][  0]LogInit: Computer: DESKTOP-UF70I4N
+[2017.10.08-19.50.52:247][  0]LogInit: User: RVR
+[2017.10.08-19.50.52:247][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.10.08-19.50.52:247][  0]LogInit: High frequency timer resolution =2.533200 MHz
+[2017.10.08-19.50.52:247][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.08-19.50.52:247][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.08-19.50.52:247][  0]LogMemory: Process Physical Memory: 273.79 MB used, 273.79 MB peak
+[2017.10.08-19.50.52:247][  0]LogMemory: Process Virtual Memory: 270.29 MB used, 270.29 MB peak
+[2017.10.08-19.50.52:247][  0]LogMemory: Physical Memory: 4103.35 MB used,  3969.61 MB free, 8072.96 MB total
+[2017.10.08-19.50.52:247][  0]LogMemory: Virtual Memory: 646.15 MB used,  3969.61 MB free, 134217728.00 MB total
+[2017.10.08-19.50.52:981][  0]LogInit: Using OS detected language (es-ES).
+[2017.10.08-19.50.52:981][  0]LogInit: Using OS detected locale (es-MX).
+[2017.10.08-19.50.53:183][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2017.10.08-19.50.59:064][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.08-19.50.59:071][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.10.08-19.50.59:071][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.10.08-19.50.59:073][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.08-19.50.59:073][  0]LogD3D11RHI:       0/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.08-19.50.59:073][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.08-19.50.59:081][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.08-19.50.59:081][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.08-19.50.59:081][  0]LogWindows: EnumDisplayDevices:
+[2017.10.08-19.50.59:081][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.10.08-19.50.59:082][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.10.08-19.50.59:082][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.10.08-19.50.59:082][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.10.08-19.50.59:082][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2017.10.08-19.50.59:082][  0]LogD3D11RHI:   Driver Version: 20.19.15.4531 (internal:20.19.15.4531, unified:20.19.15.4531)
+[2017.10.08-19.50.59:082][  0]LogD3D11RHI:      Driver Date: 9-29-2016
+[2017.10.08-19.50.59:082][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2017.10.08-19.50.59:090][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.08-19.50.59:126][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.10.08-19.50.59:126][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/10376/).
+[2017.10.08-19.50.59:126][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/RVR_/AppData/Local/Temp/UnrealShaderWorkingDir/B700A1984236F9E5E4D7B5B8EFC57B3C/'.
+[2017.10.08-19.50.59:126][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.08-19.51.08:398][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.08-19.51.08:499][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.08-19.51.08:596][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.08-19.51.08:686][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.08-19.51.08:807][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.08-19.51.08:908][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.08-19.51.08:998][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.08-19.51.09:100][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.08-19.51.09:181][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.08-19.51.09:323][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.08-19.51.09:421][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.08-19.51.09:528][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.08-19.51.09:646][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.08-19.51.09:751][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.08-19.51.09:858][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.08-19.51.10:038][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.08-19.51.10:038][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.08-19.51.10:141][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.08-19.51.10:351][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.08-19.51.10:402][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.08-19.51.10:495][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.08-19.51.10:590][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.08-19.51.10:680][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.08-19.51.10:785][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.08-19.51.10:785][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.08-19.51.12:388][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.08-19.51.13:499][  0]LogDerivedDataCache: Loaded boot cache 1.10s 90MB C:/Users/RVR_/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.08-19.51.13:499][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/RVR_/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.08-19.51.13:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.08-19.51.13:499][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.08-19.51.13:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.08-19.51.13:499][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.08-19.51.13:580][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.08-19.51.13:608][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RVR_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.08-19.51.13:622][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.08-19.51.13:623][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.08-19.51.13:720][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.08-19.51.13:720][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.08-19.51.17:405][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.08-19.51.17:988][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.08-19.51.18:548][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.08-19.51.18:716][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.08-19.51.18:841][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.08-19.51.18:841][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.08-19.51.18:841][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.08-19.51.23:224][  0]LogNetVersion: MyProject , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1111101373)
+[2017.10.08-19.51.23:417][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
+[2017.10.08-19.51.24:778][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 1.320323 seconds
+[2017.10.08-19.51.24:789][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.08-19.51.24:789][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.10.08-19.51.24:789][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.08-19.51.24:931][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.08-19.51.50:226][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.08-19.51.50:336][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.08-19.51.52:296][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.08-19.51.53:589][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.10.08-19.51.53:591][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.10.08-19.51.53:747][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.10.08-19.51.53:901][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.10.08-19.51.56:069][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.08-19.51.57:599][  0]LogEngine: Initializing Engine...
+[2017.10.08-19.51.57:625][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.08-19.51.58:399][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.08-19.51.58:399][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.08-19.51.58:675][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.08-19.51.58:697][  0]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-19.51.58:811][  0]LogInit: FAudioDevice initialized.
+[2017.10.08-19.51.58:876][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/RVR_/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.08-19.51.58:902][  0]LogInit: Texture streaming: Enabled
+[2017.10.08-19.51.59:275][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.08-19.51.59:952][  0]LogInit: Transaction tracking system initialized
+[2017.10.08-19.52.00:998][  0]BlueprintLog: New page: Cargar el editor
+[2017.10.08-19.52.04:239][  0]LocalizationService: Información Localization service is disabled
+[2017.10.08-19.52.08:129][  0]LogConsoleResponse:Display: 
+[2017.10.08-19.52.11:374][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.08-19.52.11:374][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.08-19.52.12:137][  0]LogFileCache: Scanning file cache for directory 'C:/Users/RVR_/Documents/Unreal Projects/MyProject/Content/' took 0.18s
+[2017.10.08-19.52.15:286][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.10.08-19.52.15:286][  0]Cmd: MAP LOAD FILE="../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.08-19.52.15:304][  0]LightingResults: New page: Diseñar la iluminación
+[2017.10.08-19.52.15:376][  0]MapCheck: New page: Revisión del mapa
+[2017.10.08-19.52.15:376][  0]LightingResults: New page: Diseñar la iluminación
+[2017.10.08-19.52.20:753][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.08-19.52.20:891][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.08-19.52.20:927][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.08-19.52.21:016][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 89.084ms to complete.
+[2017.10.08-19.52.21:016][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 5.730
+[2017.10.08-19.52.22:102][  0]LogCollectionManager: Loaded 0 collections in 0.007275 seconds
+[2017.10.08-19.52.22:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/RVR_/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.01s
+[2017.10.08-19.52.22:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/RVR_/Documents/Unreal Projects/MyProject/Content/Developers/RVR/Collections/' took 0.01s
+[2017.10.08-19.52.22:395][  0]LogFileCache: Scanning file cache for directory 'C:/Users/RVR_/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.01s
+[2017.10.08-19.52.22:395][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.10.08-19.52.22:408][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2329 classes and 491 folders.
+[2017.10.08-19.52.22:560][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.10.08-19.52.24:011][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.08-19.52.24:198][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.08-19.52.24:342][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.08-19.52.24:462][  0]LogSlate: Took 0.016597 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.08-19.52.24:471][  0]LogSlate: Took 0.006249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.08-19.52.24:513][  0]LogSlate: Took 0.035780 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.08-19.52.24:997][  0]LogRenderer: Reallocating scene render targets to support 804x372 NumSamples 1 (Frame:1).
+[2017.10.08-19.52.25:757][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2017.10.08-19.52.25:949][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.08-19.52.25:950][  0]LogLoad: (Engine Initialization) Total time: 105.03 seconds
+[2017.10.08-19.52.25:950][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.55 seconds
+[2017.10.08-19.52.25:950][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.08-19.52.26:314][  0]LogOcInput: OculusInput pre-init called
+[2017.10.08-19.52.26:315][  0]LogHMD: Starting GearVRController plugin
+[2017.10.08-19.52.26:452][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.10.08-19.52.26:677][  0]LogSlate: Took 0.034763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.08-19.52.27:844][  4]LogAssetRegistry: Asset discovery search completed in 64.4501 seconds
+[2017.10.08-19.52.27:859][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.08-19.52.27:859][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2017.10.08-19.53.14:204][263]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.08-19.53.15:099][263]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.08-19.53.21:609][263]LogAIModule: Creating AISystem for world RV_MAP-Final
+[2017.10.08-19.53.22:000][263]Cmd: MAP LOAD FILE="../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Content/RV_MAP-Final.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.08-19.53.22:000][263]LightingResults: New page: Diseñar la iluminación
+[2017.10.08-19.53.22:001][263]LoadErrors: New page: Cargando mapa: RV_MAP-Final.umap
+[2017.10.08-19.53.22:019][263]MapCheck: New page: Revisión del mapa
+[2017.10.08-19.53.22:019][263]LightingResults: New page: Diseñar la iluminación
+[2017.10.08-19.53.25:562][263]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.08-19.53.25:651][263]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.08-19.53.25:770][263]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 118.835ms to complete.
+[2017.10.08-19.53.25:775][263]LogFileHelpers: Loading map 'RV_MAP-Final' took 3.918
+[2017.10.08-19.58.03:564][163]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.10.08-19.58.03:982][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-19.58.04:059][163]PIE: New page: Sesión PIE (reproducción en el editor): RV_MAP-Final (08/10/2017 09:58:04)
+[2017.10.08-19.58.04:064][163]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RV_MAP-Final
+[2017.10.08-19.58.04:149][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085453s)
+[2017.10.08-19.58.04:150][163]LogAIModule: Creating AISystem for world RV_MAP-Final
+[2017.10.08-19.58.04:150][163]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2017.10.08-19.58.04:161][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RV_MAP-Final.RV_MAP-Final to /Game/UEDPIE_0_RV_MAP-Final.RV_MAP-Final (0.096931s)
+[2017.10.08-19.58.04:240][163]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-19.58.04:269][163]LogInit: FAudioDevice initialized.
+[2017.10.08-19.58.04:458][163]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.08-19.58.04:583][163]LogWorld: Bringing World /Game/UEDPIE_0_RV_MAP-Final.RV_MAP-Final up for play (max tick rate 0) at 2017.10.08-14.58.04
+[2017.10.08-19.58.04:621][163]LogWorld: Bringing up level for play took: 0.037005
+[2017.10.08-19.58.04:973][163]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2017.10.08-19.58.05:181][163]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_RV_MAP-Final 1.116
+[2017.10.08-19.58.05:542][163]LogRenderer: Reallocating scene render targets to support 916x536 NumSamples 1 (Frame:1).
+[2017.10.08-19.58.32:844][195]LogRenderer: Reallocating scene render targets to support 916x536 NumSamples 1 (Frame:109).
+[2017.10.08-19.58.33:175][198]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.08-19.58.34:057][261]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.10.08-19.58.34:093][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-19.58.34:094][261]PIE: New page: Sesión PIE (reproducción en el editor): RV_MAP-Final (08/10/2017 09:58:34)
+[2017.10.08-19.58.34:094][261]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RV_MAP-Final
+[2017.10.08-19.58.34:113][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018905s)
+[2017.10.08-19.58.34:114][261]LogAIModule: Creating AISystem for world RV_MAP-Final
+[2017.10.08-19.58.34:114][261]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2017.10.08-19.58.34:114][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RV_MAP-Final.RV_MAP-Final to /Game/UEDPIE_0_RV_MAP-Final.RV_MAP-Final (0.020364s)
+[2017.10.08-19.58.34:155][261]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-19.58.34:178][261]LogInit: FAudioDevice initialized.
+[2017.10.08-19.58.34:343][261]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.08-19.58.34:347][261]LogWorld: Bringing World /Game/UEDPIE_0_RV_MAP-Final.RV_MAP-Final up for play (max tick rate 0) at 2017.10.08-14.58.34
+[2017.10.08-19.58.34:348][261]LogWorld: Bringing up level for play took: 0.003896
+[2017.10.08-19.58.34:355][261]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_RV_MAP-Final 0.291
+[2017.10.08-19.58.34:429][261]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.10.08-19.58.56:528][643]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:134).
+[2017.10.08-19.58.56:687][647]LogContentStreaming: Texture pool size now 600 MB
+[2017.10.08-19.58.57:635][675]LogContentStreaming: Texture pool size now 800 MB
+[2017.10.08-19.58.57:668][677]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:135).
+[2017.10.08-19.58.58:850][752]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.10.08-19.58.58:887][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.08-19.58.58:888][752]PIE: New page: Sesión PIE (reproducción en el editor): RV_MAP-Final (08/10/2017 09:58:58)
+[2017.10.08-19.58.58:888][752]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RV_MAP-Final
+[2017.10.08-19.58.58:904][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016320s)
+[2017.10.08-19.58.58:905][752]LogAIModule: Creating AISystem for world RV_MAP-Final
+[2017.10.08-19.58.58:905][752]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2017.10.08-19.58.58:905][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RV_MAP-Final.RV_MAP-Final to /Game/UEDPIE_0_RV_MAP-Final.RV_MAP-Final (0.017759s)
+[2017.10.08-19.58.58:946][752]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.08-19.58.58:972][752]LogInit: FAudioDevice initialized.
+[2017.10.08-19.58.59:011][752]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.08-19.58.59:014][752]LogWorld: Bringing World /Game/UEDPIE_0_RV_MAP-Final.RV_MAP-Final up for play (max tick rate 0) at 2017.10.08-14.58.59
+[2017.10.08-19.58.59:015][752]LogWorld: Bringing up level for play took: 0.003483
+[2017.10.08-19.58.59:021][752]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_RV_MAP-Final 0.957
+[2017.10.08-20.10.05:347][572]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\RVR_\Downloads\ModelosTexturas\DianaTarget.obj)
+[2017.10.08-20.10.05:644][572]LogFbx: Loading FBX Scene from C:\Users\RVR_\Downloads\ModelosTexturas\DianaTarget.obj
+[2017.10.08-20.10.05:652][572]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.08-20.10.05:703][572]FBXImport:Warning: Aviso Can't detect import type. No mesh is found or animation track. 
+[2017.10.08-20.10.09:286][572]LogAssetTools:Warning: Failed to import 'C:\Users\RVR_\Downloads\ModelosTexturas\DianaTarget.obj'. Failed to create asset '/Game/Modelos/DianaTarget'.
+Please see Output Log for details.
+[2017.10.08-20.10.09:297][572]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\RVR_\Downloads\ModelosTexturas\DT3.jpg)
+[2017.10.08-20.10.09:432][572]LogTexture:Display: Building textures: DT3 (AutoDXT, 580X580)
+[2017.10.08-20.10.31:696][691]LogSlate: Took 0.022426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.08-20.17.29:327][959]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\RVR_\Downloads\ModelosTexturas\Target.obj)
+[2017.10.08-20.17.29:348][959]LogFbx: Loading FBX Scene from C:\Users\RVR_\Downloads\ModelosTexturas\Target.obj
+[2017.10.08-20.17.29:449][959]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.08-20.17.44:124][959]LogFbx: Loading FBX Scene from C:\Users\RVR_\Downloads\ModelosTexturas\Target.obj
+[2017.10.08-20.17.44:128][959]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.08-20.17.44:176][959]LogLinker: No puede encontrar el archivo '/Game/Modelos/lambert3SG'
+[2017.10.08-20.17.44:176][959]LogLinker: No puede encontrar el archivo '/Game/Modelos/lambert3SG'
+[2017.10.08-20.17.44:241][959]LogMaterial: Missing cached shader map for material lambert3SG, compiling. 
+[2017.10.08-20.17.44:397][959]LogLinker: No puede encontrar el archivo '/Game/Modelos/lambert2SG'
+[2017.10.08-20.17.44:397][959]LogLinker: No puede encontrar el archivo '/Game/Modelos/lambert2SG'
+[2017.10.08-20.17.44:425][959]LogMaterial: Missing cached shader map for material lambert2SG, compiling. 
+[2017.10.08-20.17.44:443][959]LogLinker: No puede encontrar el archivo '/Game/Modelos/initialShadingGroup'
+[2017.10.08-20.17.44:443][959]LogLinker: No puede encontrar el archivo '/Game/Modelos/initialShadingGroup'
+[2017.10.08-20.17.44:485][959]LogMaterial: Missing cached shader map for material initialShadingGroup, compiling. 
+[2017.10.08-20.17.44:505][959]LogFbx:Warning: Triangulating static mesh pCylinder1
+[2017.10.08-20.17.44:779][959]LogStaticMesh: Generando la malla estática Target...
+[2017.10.08-20.17.44:902][959]LogStaticMesh: Built static mesh [0.12s] /Game/Modelos/Target.Target
+[2017.10.08-20.17.45:795][959]LogAssetTools:Warning: Fallo al importar 'C:\Users\RVR_\Downloads\ModelosTexturas\Target.mtl'. Extensión desconocida 'mtl'.
+[2017.10.08-20.18.37:335][245]LogActorFactory: Actor Factory created Target
+[2017.10.08-20.18.39:346][277]LogActorFactory: Actor Factory created Target
+[2017.10.08-20.18.43:668][331]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.08-20.18.53:869][479]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.08-20.20.42:005][241]LogSavePackage: Save=406.88ms
+[2017.10.08-20.20.42:005][241]LogSavePackage: Moving '../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/RV_MAP-Final_Auto1A6C16CEE4EE87704905902A4813D086A.tmp' to '../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/RV_MAP-Final_Auto1.umap'
+[2017.10.08-20.20.42:015][241]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/RV_MAP-Final_Auto1.umap
+[2017.10.08-20.20.42:022][241]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RV_MAP-Final' took 0.685
+[2017.10.08-20.20.42:022][241]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.685
+[2017.10.08-20.20.42:025][241]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/lambert3SG] ([1] browsable assets)...
+[2017.10.08-20.20.42:128][241]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Modelos/lambert3SG.lambert3SG]
+[2017.10.08-20.20.42:128][241]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/lambert3SG]
+[2017.10.08-20.20.42:210][241]LogSavePackage: Save=78.93ms
+[2017.10.08-20.20.42:210][241]LogSavePackage: Moving '../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/lambert3SG_Auto1F5949D7141F88ABB1E9EA7BE52BC6388.tmp' to '../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Modelos/lambert3SG_Auto1.uasset'
+[2017.10.08-20.20.42:254][241]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Modelos/lambert3SG_Auto1.uasset
+[2017.10.08-20.20.42:255][241]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/Target] ([1] browsable assets)...
+[2017.10.08-20.20.42:312][241]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Modelos/Target.Target]
+[2017.10.08-20.20.42:312][241]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/Target]
+[2017.10.08-20.20.42:312][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/Target" FILE="../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Modelos/Target_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.08-20.20.42:344][241]LogSavePackage: Save=28.57ms
+[2017.10.08-20.20.42:344][241]LogSavePackage: Moving '../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/Target_Auto193E3F69A47F80472C8F30BA7E862DA94.tmp' to '../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Modelos/Target_Auto1.uasset'
+[2017.10.08-20.20.42:345][241]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Modelos/Target_Auto1.uasset
+[2017.10.08-20.20.42:346][241]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/lambert2SG] ([1] browsable assets)...
+[2017.10.08-20.20.42:404][241]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Modelos/lambert2SG.lambert2SG]
+[2017.10.08-20.20.42:404][241]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/lambert2SG]
+[2017.10.08-20.20.42:433][241]LogSavePackage: Save=26.74ms
+[2017.10.08-20.20.42:433][241]LogSavePackage: Moving '../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/lambert2SG_Auto1CE917E234A41C3B2A5C953A6551E439D.tmp' to '../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Modelos/lambert2SG_Auto1.uasset'
+[2017.10.08-20.20.42:435][241]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Modelos/lambert2SG_Auto1.uasset
+[2017.10.08-20.20.42:436][241]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelos/initialShadingGroup] ([1] browsable assets)...
+[2017.10.08-20.20.42:496][241]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Modelos/initialShadingGroup.initialShadingGroup]
+[2017.10.08-20.20.42:496][241]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelos/initialShadingGroup]
+[2017.10.08-20.20.42:532][241]LogSavePackage: Save=31.54ms
+[2017.10.08-20.20.42:532][241]LogSavePackage: Moving '../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/initialShadingGroup_Auto1ABC8788E49E6088FE2927294F614B15C.tmp' to '../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Modelos/initialShadingGroup_Auto1.uasset'
+[2017.10.08-20.20.42:535][241]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/RVR_/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Modelos/initialShadingGroup_Auto1.uasset
+[2017.10.08-20.20.42:535][241]LogFileHelpers: Auto-saving content packages took 0.511
+[2017.10.08-20.23.11:128][526]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.08-20.23.14:203][526]LogMaterial: Missing cached shader map for material BogMyrtle_01_Fronds_Mat, compiling. 
+[2017.10.08-20.23.14:780][526]LogMaterial: Missing cached shader map for material BogMyrtle_01_Billboard_Mat, compiling. 
+[2017.10.08-20.23.16:716][526]LogTexture:Display: Building textures: T_Fern_01_D (AutoDXT, 2048X2048)
+[2017.10.08-20.23.22:156][526]LogTexture:Display: Building textures: T_Fern_01_N (BC5, 2048X2048)
+[2017.10.08-20.23.23:624][526]LogTexture:Display: Building textures: T_Ice_Noise_N (BC5, 1024X1024)
+[2017.10.08-20.23.24:496][526]LogTexture:Display: Building textures: T_TilingNoise06_N (BC5, 2048X2048)
+[2017.10.08-20.23.25:975][526]LogTexture:Display: Building textures: T_Water_Screen_Noise_Soft2 (AutoDXT, 1024X1024)
+[2017.10.08-20.23.26:901][526]LogMaterial: Missing cached shader map for material M_Fern_01, compiling. 
+[2017.10.08-20.23.27:240][526]LogTexture:Display: Building textures: T_Water_Screen_Noise_Soft (AutoDXT, 1024X1024)
+[2017.10.08-20.23.28:110][526]LogMaterial: Missing cached shader map for material M_Fern_01, compiling. 
+[2017.10.08-20.23.28:485][526]LogStaticMesh: Generando la malla estática SM_Fern_01...
+[2017.10.08-20.23.28:524][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.23.28:596][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.23.28:753][526]LogStaticMesh: Built static mesh [0.29s] /Game/KiteDemo/Environments/Foliage/Ferns/SM_Fern_01.SM_Fern_01
+[2017.10.08-20.23.28:835][526]LogStaticMesh: Generando la malla estática SM_Fern_02...
+[2017.10.08-20.23.28:878][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.23.28:961][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.23.29:126][526]LogStaticMesh: Built static mesh [0.29s] /Game/KiteDemo/Environments/Foliage/Ferns/SM_Fern_02.SM_Fern_02
+[2017.10.08-20.23.29:296][526]LogStaticMesh: Generando la malla estática SM_Fern_03...
+[2017.10.08-20.23.29:332][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.23.29:410][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.23.29:568][526]LogStaticMesh: Built static mesh [0.28s] /Game/KiteDemo/Environments/Foliage/Ferns/SM_Fern_03.SM_Fern_03
+[2017.10.08-20.23.29:819][526]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.10.08-20.23.29:825][526]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.08-20.23.29:872][526]LogTexture:Display: Building textures: T_SwirlNoise (G8, 512X512)
+[2017.10.08-20.23.30:195][526]LogTexture:Display: Building textures: T_Buttercup_Patch_01_D (AutoDXT, 2048X2048)
+[2017.10.08-20.23.33:799][526]LogTexture:Display: Building textures: T_Buttercup_Patch_01_M (AutoDXT, 2048X2048)
+[2017.10.08-20.23.35:324][526]LogMaterial: Missing cached shader map for material M_Buttercup_Patch_01, compiling. 
+[2017.10.08-20.23.35:588][526]LogMaterial: Missing cached shader map for material M_Buttercup_Patch_01, compiling. 
+[2017.10.08-20.23.36:099][526]LogStaticMesh: Generando la malla estática SM_Buttercup_Patch_01...
+[2017.10.08-20.23.36:396][526]LogStaticMesh: Built static mesh [0.30s] /Game/KiteDemo/Environments/Foliage/Flowers/Buttercup/SM_Buttercup_Patch_01.SM_Buttercup_Patch_01
+[2017.10.08-20.23.37:665][526]LogTexture:Display: Building textures: T_FieldScabious01_N (BC5, 2048X2048)
+[2017.10.08-20.23.39:409][526]LogTexture:Display: Building textures: T_FieldScabious01_M (AutoDXT, 2048X2048)
+[2017.10.08-20.23.42:623][526]LogTexture:Display: Building textures: T_FieldScabious01_D (AutoDXT, 2048X2048)
+[2017.10.08-20.23.50:519][526]LogMaterial: Missing cached shader map for material M_FieldScabious_01, compiling. 
+[2017.10.08-20.23.50:974][526]LogMaterial: Missing cached shader map for material M_FieldScabious_01, compiling. 
+[2017.10.08-20.23.51:246][526]LogStaticMesh: Generando la malla estática SM_FieldScabious_01...
+[2017.10.08-20.23.51:716][526]LogStaticMesh: Built static mesh [0.47s] /Game/KiteDemo/Environments/Foliage/Flowers/FieldScabious/SM_FieldScabious_01.SM_FieldScabious_01
+[2017.10.08-20.23.52:338][526]LogTexture:Display: Building textures: T_HeatherBranch4_N (BC5, 2048X2048)
+[2017.10.08-20.23.53:640][526]LogTexture:Display: Building textures: T_HeatherBranch4_Mask2 (AutoDXT, 1024X1024)
+[2017.10.08-20.23.54:496][526]LogTexture:Display: Building textures: T_HeatherBranch4_D (AutoDXT, 2048X2048)
+[2017.10.08-20.24.02:375][526]LogTexture:Display: Building textures: T_Ice_Noise (AutoDXT, 1024X1024)
+[2017.10.08-20.24.04:752][526]LogMaterial: Missing cached shader map for material M_HeatherNew_Master, compiling. 
+[2017.10.08-20.24.05:514][526]LogTexture:Display: Building textures: T_Grass_Blobby_Height_01 (AutoDXT, 2048X2048)
+[2017.10.08-20.24.16:877][526]LogMaterial: Missing cached shader map for material M_HeatherNew_MasterWorldColorVarience, compiling. 
+[2017.10.08-20.24.17:192][526]LogTexture:Display: Building textures: T_GDC_TilingRocks_01_DispMask (AutoDXT, 1024X1024)
+[2017.10.08-20.24.17:849][526]LogMaterial: Missing cached shader map for material M_HeatherNew_Master, compiling. 
+[2017.10.08-20.24.18:067][526]LogMaterial: Missing cached shader map for material M_HeatherNew_MasterWorldColorVarience, compiling. 
+[2017.10.08-20.24.18:288][526]LogMaterial: Missing cached shader map for material M_HeatherNew_MasterWorldColorVarience, compiling. 
+[2017.10.08-20.24.18:484][526]LogStaticMesh: Generando la malla estática SM_Heather_Mesh_Clumps2...
+[2017.10.08-20.24.18:486][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.24.18:487][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.24.18:557][526]LogStaticMesh: Built static mesh [0.07s] /Game/KiteDemo/Environments/Foliage/Flowers/Heather/SM_Heather_Mesh_Clumps2.SM_Heather_Mesh_Clumps2
+[2017.10.08-20.24.18:668][526]LogStaticMesh: Generando la malla estática SM_Heather_Mesh_Clumps2_WorldPopulate...
+[2017.10.08-20.24.18:782][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.24.18:783][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.24.18:848][526]LogStaticMesh: Built static mesh [0.19s] /Game/KiteDemo/Environments/Foliage/Flowers/Heather/SM_Heather_Mesh_Clumps2_WorldPopulate.SM_Heather_Mesh_Clumps2_WorldPopulate
+[2017.10.08-20.24.19:330][526]LogTexture:Display: Building textures: T_Yarrow_N (BC5, 2048X2048)
+[2017.10.08-20.24.21:100][526]LogTexture:Display: Building textures: T_Yarrow_D (AutoDXT, 2048X2048)
+[2017.10.08-20.24.30:032][526]LogMaterial: Missing cached shader map for material M_HeatherNew_Master, compiling. 
+[2017.10.08-20.24.30:458][526]LogTexture:Display: Building textures: T_Yarrow_M (AutoDXT, 2048X2048)
+[2017.10.08-20.24.31:602][526]LogStaticMesh: Generando la malla estática SM_Yarrow...
+[2017.10.08-20.24.31:811][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.24.31:987][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.24.32:053][526]LogStaticMesh: Built static mesh [0.49s] /Game/KiteDemo/Environments/Foliage/Flowers/Yarrow/SM_Yarrow.SM_Yarrow
+[2017.10.08-20.24.32:154][526]LogStaticMesh: Generando la malla estática SM_Yarrow3...
+[2017.10.08-20.24.32:616][526]LogStaticMesh: Built static mesh [0.51s] /Game/KiteDemo/Environments/Foliage/Flowers/Yarrow/SM_Yarrow3.SM_Yarrow3
+[2017.10.08-20.24.34:451][526]LogTexture:Display: Building textures: T_DeadLeavesAtlasTop_01_D (AutoDXT, 4096X4096)
+[2017.10.08-20.25.04:741][526]LogTexture:Display: Building textures: T_DeadLeavesAtlas_01_N (BC5, 4096X4096)
+[2017.10.08-20.25.11:210][526]LogTexture:Display: Building textures: T_DeadLeavesAtlas_01_D (AutoDXT, 4096X4096)
+[2017.10.08-20.25.52:256][526]LogMaterial: Missing cached shader map for material M_DeadLeaves, compiling. 
+[2017.10.08-20.25.52:559][526]LogStaticMesh: Generando la malla estática SM_DeadLeaves...
+[2017.10.08-20.25.52:575][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.25.52:823][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.25.52:986][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.25.53:156][526]LogStaticMesh: Built static mesh [0.60s] /Game/KiteDemo/Environments/Foliage/Leaves/SM_DeadLeaves.SM_DeadLeaves
+[2017.10.08-20.25.53:400][526]LogStaticMesh: Generando la malla estática SM_DeadLeaves_Flat...
+[2017.10.08-20.25.53:415][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.25.53:669][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.25.53:836][526]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.10.08-20.25.54:000][526]LogStaticMesh: Built static mesh [0.62s] /Game/KiteDemo/Environments/Foliage/Leaves/SM_DeadLeaves_Flat.SM_DeadLeaves_Flat
+[2017.10.08-20.26.02:724][526]LogTexture:Display: Building textures: T_Forest_Path_001B_N (BC5, 8192X8192)
+[2017.10.08-20.26.49:781][526]LogTexture:Display: Building textures: T_Forest_Path_001B_D_R (AutoDXT, 8192X8192)
+[2017.10.08-20.31.17:399][526]LogMaterial: Missing cached shader map for material M_AssetPlatform_Grass, compiling. 
+[2017.10.08-20.31.23:720][526]LogTexture:Display: Building textures: T_ground_Moss_D (AutoDXT, 2048X2048)
+[2017.10.08-20.31.43:183][526]LogMaterial: Missing cached shader map for material M_Photoscan_Master_Displacement, compiling. 
+[2017.10.08-20.31.43:988][526]LogMaterial: Missing cached shader map for material M_Photoscan_Master_Displacement, compiling. 
+[2017.10.08-20.32.02:992][526]LogTexture:Display: Building textures: T_Boulder05_N (BC5, 8192X8192)
+[2017.10.08-20.32.49:004][526]LogTexture:Display: Building textures: T_Boulder05_D_CC_R (AutoDXT, 4096X4096)
+[2017.10.08-20.33.47:577][526]LogStaticMesh: Generando la malla estática SM_Boulder05a...
+[2017.10.08-20.33.48:235][526]LogStaticMesh: Built static mesh [0.67s] /Game/KiteDemo/Environments/Rocks/Boulder_05a/SM_Boulder05a.SM_Boulder05a
+[2017.10.08-20.33.54:750][526]LogTexture:Display: Building textures: T_GroundRevealRock001a_N (BC5, 8192X8192)
+[2017.10.08-20.34.34:771][526]LogStaticMesh: Generando la malla estática SM_GroundRevealRock001...
+[2017.10.08-20.34.35:515][526]LogStaticMesh: Built static mesh [0.78s] /Game/KiteDemo/Environments/Rocks/GroundRevealRock001/SM_GroundRevealRock001.SM_GroundRevealRock001
+[2017.10.08-20.34.42:688][526]LogTexture:Display: Building textures: T_GroundRevealRock002_N (BC5, 8192X8192)
+[2017.10.08-20.35.31:224][526]LogTexture:Display: Building textures: T_GroundRevealRock002_D_CC_R (AutoDXT, 8192X8192)
+[2017.10.08-20.38.47:205][526]LogStaticMesh: Generando la malla estática SM_GroundRevealRock002...
+[2017.10.08-20.38.51:020][526]LogStaticMesh: Built static mesh [3.66s] /Game/KiteDemo/Environments/Rocks/GroundRevealRock002/SM_GroundRevealRock002.SM_GroundRevealRock002
+[2017.10.08-20.39.03:365][526]LogTexture:Display: Building textures: T_LargePlainsBoulder002_N (BC5, 8192X8192)
+[2017.10.08-20.40.00:712][526]LogTexture:Display: Building textures: T_LargePlainsBoulder002_D_R (AutoDXT, 8192X8192)
